@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane prefHeight="414.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jeremia.Controller">
+<BorderPane prefHeight="414.0" prefWidth="290.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jeremia.Controller">
    <top>
       <FlowPane alignment="CENTER" prefHeight="91.0" prefWidth="344.0" BorderPane.alignment="CENTER">
          <children>
@@ -31,22 +31,22 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="one" mnemonicParsing="false" onAction="#numberClicked" text="1" GridPane.rowIndex="2" />
-            <Button fx:id="two" mnemonicParsing="false" onAction="#numberClicked" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="plus" mnemonicParsing="false" onAction="#numberClicked" text="+" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button fx:id="equal" mnemonicParsing="false" onAction="#numberClicked" text="=" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button fx:id="three" mnemonicParsing="false" onAction="#numberClicked" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button fx:id="four" mnemonicParsing="false" onAction="#numberClicked" text="4" GridPane.rowIndex="1" />
-            <Button fx:id="five" mnemonicParsing="false" onAction="#numberClicked" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="six" mnemonicParsing="false" onAction="#numberClicked" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="seven" mnemonicParsing="false" onAction="#numberClicked" text="7" />
-            <Button fx:id="eight" mnemonicParsing="false" onAction="#numberClicked" text="8" GridPane.columnIndex="1" />
-            <Button fx:id="nine" mnemonicParsing="false" onAction="#numberClicked" text="9" GridPane.columnIndex="2" />
-            <Button fx:id="zero" mnemonicParsing="false" onAction="#numberClicked" text="0" GridPane.rowIndex="3" />
-            <Button fx:id="doubleZero" mnemonicParsing="false" onAction="#numberClicked" text="00" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button fx:id="point" mnemonicParsing="false" onAction="#numberClicked" text="." GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button fx:id="clear" mnemonicParsing="false" onAction="#clear" text="C" GridPane.columnIndex="3" />
-            <Button fx:id="minus" mnemonicParsing="false" onAction="#numberClicked" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="one" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="1" GridPane.rowIndex="2" />
+            <Button fx:id="two" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="plus" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="equal" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="three" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="four" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="4" GridPane.rowIndex="1" />
+            <Button fx:id="five" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="six" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="seven" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="7" />
+            <Button fx:id="eight" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="8" GridPane.columnIndex="1" />
+            <Button fx:id="nine" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="9" GridPane.columnIndex="2" />
+            <Button fx:id="zero" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="0" GridPane.rowIndex="3" />
+            <Button fx:id="doubleZero" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="00" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="point" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button id="clear" fx:id="clear" mnemonicParsing="false" onAction="#clear" prefHeight="73.0" prefWidth="68.0" text="C" GridPane.columnIndex="3" />
+            <Button fx:id="minus" mnemonicParsing="false" onAction="#numberClicked" prefHeight="73.0" prefWidth="68.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </center>

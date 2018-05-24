@@ -1,0 +1,18 @@
+Button {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+Button:hover {
+    -fx-border-color: #3498db;
+}
+
+Button#clear {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: #FFFFFF;
+}
+
+TextField {
+    -fx-text-fill: red;
+    -fx-font-size: 23px;
+}
